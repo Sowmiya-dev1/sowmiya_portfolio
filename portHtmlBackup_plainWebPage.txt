@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="portfolio_css.css">
+  <!-- Bootstrap CSS (v5) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- fontawsome css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+  <div class="container main-block bg-container">
+<div class="nav-div">
+    <nav>
+  
+  <span class="btn menu-btn"> <a href="#about" style="color: rgb(0 0 0); text-decoration: unset; padding: 18px;">About</a> </span>
+  <span class="btn menu-btn"> <a href="#projects" style="color: rgb(0 0 0); text-decoration: unset; padding: 18px;">Projects</a> </span>
+  <span class="btn menu-btn"> <a href="#experience" style="color: rgb(0 0 0); text-decoration: unset; padding: 18px;">Experience</a> </span>
+  <span class="btn menu-btn"> <a href="#contact" style="color: rgb(0 0 0); text-decoration: unset; padding: 18px;">Contact</a> </span>
+</nav>
+</div>
+<div class="main-content">
+ <span> <img class="avatar-img" src="avataaars.png">
+  <div>
+    <div class="fs-3 div1"> Hi, My name is</div>
+    <h1 class="text-center div2" >Sowmiya Krishnan</h1>
+    <div class="content">I am a Frontend Developer specialising in developing web applications
+       with a keen eye for creating an engaging UI bringing good applications.</div>
+      </div>
+    </div>
+    </span>
+  <div>
+    <!-- https://www.linkedin.com/in/sowmiya-krishnan-9b2a2a219 -->
+    <a href="https://www.linkedin.com/in/sowmiya-krishnan-9b2a2a219" target="_blank" style="color:rgb(227 233 240);">
+    <i class="btn ln-btn fa-brands fa-linkedin fa-lg" title="LinkedIn" style="border:none"></i></a>
+    <a href="https://github.com/Sowmiya-dev1" target="_blank" style="position: relative; top:20px; color:rgb(227 233 240);">
+    <i class="btn git-btn fa-brands fa-github fa-lg" title= "GitHub" style="border:none"></i></a>
+    <a href="C:\Users\admin\Downloads\Sowmiya CV.pdf" target="_blank" style="position: relative; top:38px; color:rgb(227 233 240);">
+    <i class="btn cv-btn fa-solid fa-file fa-lg" title= "CV/Resume" style="border:none"></i></a>
+  </div>
+  
+  </div>
+  </div>
+  <script src="portfolio_js.js"></script>
+</body>
+
+</html>

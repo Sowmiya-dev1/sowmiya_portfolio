@@ -1,0 +1,146 @@
+.div2{
+    font-size: 40px;
+}
+.content{
+    padding: 14px;
+    width: 40vw;
+    margin-left: 310px;
+}
+.div1{
+    padding: 14px;
+    width: 40vw;
+    margin-left: 310px;
+}
+
+
+.main-block{
+    background-color: #a4b2bf;
+    margin-top: 33px;
+    background: linear-gradient(to right, #122d6c 10%, white 18%) top, /* Top border gradient */ linear-gradient(to right, white 82%, #122d6c 90%) bottom, linear-gradient(to bottom, #122d6c 10%, white 67%) left, linear-gradient(to bottom, white 28%, #122d6c 89%) right;
+    background-repeat: no-repeat;
+    background-size: 100% 10px, 100% 10px, 10px 100%, 10px 100%;
+    border: 10px solid transparent;
+    /* padding: 130px;  */
+     padding-top: 81px;
+     height: 579px;
+}
+.bg-container{
+    background-color: #c8d6ed;
+}
+.main-content{
+    top: 56px;
+    position: relative;
+    left: 160px;
+}
+.nav-icon{
+    right: 58px;
+    position: relative;
+}
+.home-img{
+    bottom: 274px;
+    position: relative;
+    right: 97px;
+}
+.nav-div{
+    justify-content: center;
+    margin-top: -40px;
+    display: flex;
+}
+ .ln-btn{
+    bottom: 27vh;
+    left: 150vh;
+    position: relative;
+    margin-left: -2px;
+    border:none;
+}
+.git-btn{
+    bottom: 20vh;
+    left: 142vh;
+    position: relative;
+    margin-left: 3px;
+    border:none;
+}
+ .cv-btn{
+    bottom: 13vh;
+    left: 135vh;
+    position: relative;
+    margin-left: -2px;
+    border:none;
+}
+.tab-content {
+    display: none; /* Hide all tab content by default */
+    padding: 20px;
+    margin-top: 6px;
+  }
+  .tab-container {
+          /* Optional: set a max-width */
+    height: 422px !important;          /* Set a fixed height for all tabs */
+    overflow-y: auto;       /* Enable vertical scrolling when content overflows */
+    
+    }
+.home-tab{
+    overflow: hidden;
+}
+.cont-tab{
+    padding:16px;
+}
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #406080; /* Light blue background */
+    color: black;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #education {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #406080; /* Same blue as other sections */
+  }
+  
+  #education h2 {
+    font-size: 1.8em;
+    margin-bottom: 1em;
+    color: black;
+    text-align: center;
+  }
+  
+  .degree {
+    margin-bottom: 1.5em;
+    padding: 1em 0;
+    border-bottom: 1px solid #333;
+  }
+  
+  .degree h3 {
+    font-size: 1.3em;
+    margin-bottom: 0.5em;
+    color: black;
+  }
+  
+  .degree p {
+    margin: 0.3em 0;
+    line-height: 1.5;
+    color: black;
+  }
+  
+  .status {
+    font-weight: bold;
+    color: #ff6600; /* Highlighted color for status */
+  }
+.pro-summary
+{
+    display: block;
+    padding-right: 425px;
+}
+.abt-img{
+    bottom: 166px;
+    position: relative;
+    left: 123vh;
+}
+.skill-icons img{
+    /* font-size: 63px; */
+    margin-top: 40px;
+    width:65px;
+}
