@@ -1,146 +1,392 @@
-.div2{
-    font-size: 40px;
+body h2{
+  color: #48639c;
 }
-.content{
-    padding: 14px;
-    width: 40vw;
-    margin-left: 310px;
+.div2 {
+  font-size: 40px;
+  padding-right: 202px;
 }
-.div1{
-    padding: 14px;
-    width: 40vw;
-    margin-left: 310px;
+.content {
+  padding: 14px;
+  width: 40vw;
+  margin-left: 310px;
+}
+.div1 {
+  padding: 14px;
+  width: 40vw;
+  margin-left: 310px;
 }
 
-
-.main-block{
-    background-color: #a4b2bf;
-    margin-top: 33px;
-    background: linear-gradient(to right, #122d6c 10%, white 18%) top, /* Top border gradient */ linear-gradient(to right, white 82%, #122d6c 90%) bottom, linear-gradient(to bottom, #122d6c 10%, white 67%) left, linear-gradient(to bottom, white 28%, #122d6c 89%) right;
-    background-repeat: no-repeat;
-    background-size: 100% 10px, 100% 10px, 10px 100%, 10px 100%;
-    border: 10px solid transparent;
-    /* padding: 130px;  */
-     padding-top: 81px;
-     height: 579px;
+.main-block {
+  background-color: #a4b2bf;
+  margin-top: 33px;
+  background: linear-gradient(to right, #122d6c 10%, white 18%) top,
+    /* Top border gradient */ linear-gradient(to right, white 82%, #122d6c 90%)
+      bottom,
+    linear-gradient(to bottom, #122d6c 10%, white 67%) left,
+    linear-gradient(to bottom, white 28%, #122d6c 89%) right;
+  background-repeat: no-repeat;
+  background-size: 100% 10px, 100% 10px, 10px 100%, 10px 100%;
+  border: 10px solid transparent;
+  /* padding: 130px;  */
+  padding-top: 81px;
+  height: 579px;
 }
-.bg-container{
-    background-color: #c8d6ed;
+.bg-container {
+  background-color: #c8d6ed;
 }
-.main-content{
-    top: 56px;
-    position: relative;
-    left: 160px;
+.main-content {
+  top: 56px;
+  position: relative;
+  left: 160px;
 }
-.nav-icon{
-    right: 58px;
-    position: relative;
+.nav-icon {
+  right: 58px;
+  position: relative;
 }
-.home-img{
-    bottom: 274px;
-    position: relative;
-    right: 97px;
+.home-img {
+  bottom: 274px;
+  position: relative;
+  right: 97px;
 }
-.nav-div{
-    justify-content: center;
-    margin-top: -40px;
-    display: flex;
+.nav-div {
+  justify-content: center;
+  margin-top: -40px;
+  display: flex;
 }
- .ln-btn{
-    bottom: 27vh;
-    left: 150vh;
-    position: relative;
-    margin-left: -2px;
-    border:none;
+.ln-btn {
+  bottom: 27vh;
+  left: 150vh;
+  position: relative;
+  margin-left: -2px;
+  border: none;
 }
-.git-btn{
-    bottom: 20vh;
-    left: 142vh;
-    position: relative;
-    margin-left: 3px;
-    border:none;
+.git-btn {
+  bottom: 20vh;
+  left: 142vh;
+  position: relative;
+  margin-left: 3px;
+  border: none;
 }
- .cv-btn{
-    bottom: 13vh;
-    left: 135vh;
-    position: relative;
-    margin-left: -2px;
-    border:none;
+.cv-btn {
+  bottom: 13vh;
+  left: 135vh;
+  position: relative;
+  margin-left: -2px;
+  border: none;
 }
 .tab-content {
-    display: none; /* Hide all tab content by default */
-    padding: 20px;
-    margin-top: 6px;
-  }
-  .tab-container {
-          /* Optional: set a max-width */
-    height: 422px !important;          /* Set a fixed height for all tabs */
-    overflow-y: auto;       /* Enable vertical scrolling when content overflows */
-    
-    }
-.home-tab{
-    overflow: hidden;
+  display: none; /* Hide all tab content by default */
+  padding: 20px;
 }
-.cont-tab{
-    padding:16px;
+.tab-container {
+  /* Optional: set a max-width */
+  height: 422px !important; /* Set a fixed height for all tabs */
+  overflow-y: auto; /* Enable vertical scrolling when content overflows */
+}
+.home-tab, .abt-tab {
+  overflow: hidden !important;
+  height: inherit !important;
+}
+.cont-tab {
+  padding: 16px;
 }
 
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #406080; /* Light blue background */
-    color: black;
-    margin: 0;
-    padding: 0;
-  }
-  
-  #education {
-    max-width: 800px;
-    margin: 2em auto;
-    padding: 1em;
-    background-color: #406080; /* Same blue as other sections */
-  }
-  
-  #education h2 {
-    font-size: 1.8em;
-    margin-bottom: 1em;
-    color: black;
-    text-align: center;
-  }
-  
-  .degree {
-    margin-bottom: 1.5em;
-    padding: 1em 0;
-    border-bottom: 1px solid #333;
-  }
-  
-  .degree h3 {
-    font-size: 1.3em;
-    margin-bottom: 0.5em;
-    color: black;
-  }
-  
-  .degree p {
-    margin: 0.3em 0;
-    line-height: 1.5;
-    color: black;
-  }
-  
-  .status {
-    font-weight: bold;
-    color: #ff6600; /* Highlighted color for status */
-  }
-.pro-summary
-{
-    display: block;
-    padding-right: 425px;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #406080; /* Light blue background */
+  color: black;
+  margin: 0;
+  padding: 0;
 }
-.abt-img{
-    bottom: 166px;
-    position: relative;
-    left: 123vh;
+
+.edu-div {
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 1em;
+  background-color: #b2c1dd; /* Same blue as other sections */
 }
-.skill-icons img{
-    /* font-size: 63px; */
-    margin-top: 40px;
-    width:65px;
+
+.edu-div.h2,.h3 {
+  font-size: 1.8em;
+  margin-bottom: 1em;
+  color: black;
+  text-align: center;
+}
+
+.degree {
+  margin-bottom: 1.5em;
+  padding: 1em 0;
+  border-bottom: 1px solid #000000;
+}
+
+.degree h3, .course h3 {
+  font-size: 1.3em;
+  margin-bottom: 0.5em;
+  color: rgb(255, 255, 255);
+}
+
+.degree p {
+  margin: 0.3em 0;
+  line-height: 1.5;
+  color: black;
+}
+
+p strong{
+  color:white;
+}
+.status {
+  font-weight: bold;
+  color:rgb(233 104 0 / 64%);/* Highlighted color for status */
+}
+
+.hr-line{
+  opacity: 1.25;
+  color: rgb(0, 0, 0);
+}
+.pro-summary {
+  display: block;
+  padding-right: 425px;
+}
+.abt-img {
+  bottom: 299px;
+  position: relative;
+  left: 143vh;
+}
+.skill-icons img {
+  font-size: 63px;
+  margin: 30px;
+  width: 65px;
+}
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 3 images per row */
+  gap: 20px; /* Spacing between images */
+  pointer-events: none;
+}
+.image-grid img {
+  width: 100%;
+  height: auto;
+}
+.image-container {
+  display: inline-block;
+  margin: 10px;
+  text-align: center; /* Centers the text below each image */
+}
+.image-container img {
+  display: block;
+  width: 200px; /* Adjust the width as needed */
+  height: auto;
+}
+.image-label {
+  font-size: 14px;
+  color: #314273f5;
+  margin-top: 5px;
+  padding-right: 43px;
+}
+video{
+  width: 300px;
+}
+
+.image-grid2{
+  gap: 33px;
+  margin-left: 11px;
+  grid-template-columns: repeat(2, 1fr);
+  pointer-events: none;
+  display: grid;
+}
+.image-grid3{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px; 
+  pointer-events: none;
+}
+.image-label2{
+  left: 51vw;
+  position: relative;
+  width: 191px;
+  color: #314273f5;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: #48639c;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.timeline-container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.timeline-container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -12px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -12px;
+}
+
+/* The actual content */
+.timeline-content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+  left: 31px;
+  }
+  
+  /* Full-width containers */
+  .timeline-container {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+  /* Make sure that all arrows are pointing leftwards */
+  .timeline-container::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+  left: 15px;
+  }
+  
+  /* Make all right containers behave like the left ones */
+  .right {
+  left: 0%;
+  }
+}
+
+.contact-section {
+  background: #c8d6ed;
+  padding: 50px 20px;
+  text-align: center;
+  color: #333;
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #48639c;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.contact-info {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-info h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info li {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.contact-info i {
+  color: #e87924e0;
+  margin-right: 10px;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+  color: #48639c;
+}
+
+.contact-form button:hover {
+  background: #ff7a59;
 }

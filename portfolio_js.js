@@ -11,14 +11,10 @@ document.addEventListener('DOMContentLoaded', () => {
     // Show the selected tab content, hide 'Home' when any other tab is selected
     if (tabId !== 'home') {
       document.getElementById('home').style.display = 'none';
+
     }
   
     document.getElementById(tabId).style.display = 'block';
   }
-//   function showTab(tabId){
-// if (tabId == 'home'){
-//   document.getElementById('home').style.overflowY = 'unset';
-// } else {
-//   document.getElementById(tabId).style.overflowY = 'auto';
-// }
-//   }
+
+// height: inherit;
